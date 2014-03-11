@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="DefaultName">
+    <packagedElement xmi:type="uml:Package" xmi:id="_5mUwYKWbEeC3FJjqErg1og" name="Metier">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7cQ-UKWbEeC3FJjqErg1og" name="facture">
+        <eAnnotations xmi:id="_ogsPsKWcEeC3FJjqErg1og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_p4An8KWcEeC3FJjqErg1og" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_gsG5EKWcEeC3FJjqErg1og" name="id_facture">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qwnhEKbzEeCYUZHkDd7zIQ" name="id_commande_ebay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6TnewKWcEeC3FJjqErg1og" name="date_facturation">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_orQaQKb3EeCYUZHkDd7zIQ" name="montant">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sIn5AKb3EeCYUZHkDd7zIQ" name="mode_de_paiement">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2YSyAKb3EeCYUZHkDd7zIQ" name="date_commande">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_kScVAKb5EeCYUZHkDd7zIQ" name="date_de_paiement">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Bz3WEKb7EeCYUZHkDd7zIQ" name="id_transaction">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1jFH8KWcEeC3FJjqErg1og" name="Client">
+        <eAnnotations xmi:id="_Yn3AYKb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Z9q8wKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_4Px-wKWcEeC3FJjqErg1og" name="IDClient"/>
+        <ownedAttribute xmi:id="_70FL8KWcEeC3FJjqErg1og" name="Nom"/>
+        <ownedAttribute xmi:id="_88wrQKWcEeC3FJjqErg1og" name="Prenom"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__O2asKZBEeCZhcMYQDtAyQ" name="entreprise">
+        <eAnnotations xmi:id="_eNIm0Kb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_fd5rIKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_K_rTcKb9EeCYUZHkDd7zIQ" name="id_entreprise">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qAzJgKb6EeCYUZHkDd7zIQ" name="nom">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_s355gKb6EeCYUZHkDd7zIQ" name="adresse_ligne1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_w4yVAKb6EeCYUZHkDd7zIQ" name="adresse_ligne2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_zouGAKb6EeCYUZHkDd7zIQ" name="ville">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_0c58AKb6EeCYUZHkDd7zIQ" name="pays">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_19WbEKb6EeCYUZHkDd7zIQ" name="code_postal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_52Ws8Kb6EeCYUZHkDd7zIQ" name="telephone1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7S_qEKb6EeCYUZHkDd7zIQ" name="telephone2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_B1CZ0KZCEeCZhcMYQDtAyQ" name="objet_facture">
+        <eAnnotations xmi:id="_hsOj4Kb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_i9sLwKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_QkFekKb6EeCYUZHkDd7zIQ" name="id_objet_facture">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SjQhAKb6EeCYUZHkDd7zIQ" name="id_objet_ebay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VZYZkKb6EeCYUZHkDd7zIQ" name="titre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_akkFAKb6EeCYUZHkDd7zIQ" name="etat">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_dJWV8Kb6EeCYUZHkDd7zIQ" name="quantite">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_mv6AgKb6EeCYUZHkDd7zIQ" name="montant">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ezl98Kb4EeCYUZHkDd7zIQ" name="adresse_facturation">
+        <eAnnotations xmi:id="_lqB2MKb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_mxvsMKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_UhFxkKb4EeCYUZHkDd7zIQ" name="id_adresse_facturation">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_XQQtkKb4EeCYUZHkDd7zIQ" name="nom" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YcxkAKb4EeCYUZHkDd7zIQ" name="prenom">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aGrhEKb4EeCYUZHkDd7zIQ" name="adresse_ligne1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_buhBkKb4EeCYUZHkDd7zIQ" name="adresse_ligne2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vpx7sKcwEeCBaYC0YV1Bcw" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_0q2o4KcwEeCBaYC0YV1Bcw" value=""/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_f6n1oKb4EeCYUZHkDd7zIQ" name="ville">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_hpsmkKb4EeCYUZHkDd7zIQ" name="pays">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_kDvAEKb4EeCYUZHkDd7zIQ" name="code_postal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_n1urAKb4EeCYUZHkDd7zIQ" name="telephone1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qMVWAKb4EeCYUZHkDd7zIQ" name="telephone2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6pEOMKb4EeCYUZHkDd7zIQ" name="service_livraison">
+        <eAnnotations xmi:id="_psN5QKb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_q7BOsKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_9eMBMKb4EeCYUZHkDd7zIQ" name="id_livraison">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_D7hRAKb5EeCYUZHkDd7zIQ" name="service_de_livraison">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MJfYAKb5EeCYUZHkDd7zIQ" name="montant_livraison">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OyokgKb5EeCYUZHkDd7zIQ" name="devise">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tF75AKb7EeCYUZHkDd7zIQ" name="date_livraison">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_r19JwKb5EeCYUZHkDd7zIQ" name="adresse_livraison">
+        <eAnnotations xmi:id="_t7v0wKb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_vW6LMKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_ucd5AKb5EeCYUZHkDd7zIQ" name="id_adresse_livraison">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_5cwWoKb5EeCYUZHkDd7zIQ" name="nom">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6T6BEKb5EeCYUZHkDd7zIQ" name="prenom">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7xgngKb5EeCYUZHkDd7zIQ" name="adresse_ligne1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9-CwgKb5EeCYUZHkDd7zIQ" name="adresse_ligne2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BLHwgKb6EeCYUZHkDd7zIQ" name="ville">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_CVWvAKb6EeCYUZHkDd7zIQ" name="pays">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Dao8EKb6EeCYUZHkDd7zIQ" name="code_postal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_FTyPAKb6EeCYUZHkDd7zIQ" name="telephone1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_G-dBEKb6EeCYUZHkDd7zIQ" name="telephone2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YT2xMKb7EeCYUZHkDd7zIQ" name="client_ebay">
+        <eAnnotations xmi:id="_xb6v4Kb9EeCYUZHkDd7zIQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_yhPZMKb9EeCYUZHkDd7zIQ" key="Entity"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_ds1BAKb7EeCYUZHkDd7zIQ" name="id_client_ebay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EBigInteger"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iJGYAKb7EeCYUZHkDd7zIQ" name="id_ebay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LQJpYKZCEeCZhcMYQDtAyQ" name="A_&lt;entreprise>_&lt;facture>" memberEnd="_LQJpYaZCEeCZhcMYQDtAyQ _LQJpZKZCEeCZhcMYQDtAyQ">
+      <ownedEnd xmi:id="_LQJpYaZCEeCZhcMYQDtAyQ" name="entreprise" type="__O2asKZBEeCZhcMYQDtAyQ" association="_LQJpYKZCEeCZhcMYQDtAyQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LQJpYqZCEeCZhcMYQDtAyQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LQJpY6ZCEeCZhcMYQDtAyQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_LQJpZKZCEeCZhcMYQDtAyQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" aggregation="composite" association="_LQJpYKZCEeCZhcMYQDtAyQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LQJpZaZCEeCZhcMYQDtAyQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LQJpZqZCEeCZhcMYQDtAyQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TxjpwKZCEeCZhcMYQDtAyQ" name="A_&lt;objet_facture>_&lt;facture>" memberEnd="_TxkQ0KZCEeCZhcMYQDtAyQ _TxkQ06ZCEeCZhcMYQDtAyQ">
+      <ownedEnd xmi:id="_TxkQ0KZCEeCZhcMYQDtAyQ" name="objet_facture" type="_B1CZ0KZCEeCZhcMYQDtAyQ" aggregation="composite" association="_TxjpwKZCEeCZhcMYQDtAyQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TxkQ0aZCEeCZhcMYQDtAyQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TxkQ0qZCEeCZhcMYQDtAyQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_TxkQ06ZCEeCZhcMYQDtAyQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" association="_TxjpwKZCEeCZhcMYQDtAyQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TxkQ1KZCEeCZhcMYQDtAyQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TxkQ1aZCEeCZhcMYQDtAyQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6JnqYKb-EeCYUZHkDd7zIQ" name="A_&lt;client_ebay>_&lt;facture>" memberEnd="_6JnqYab-EeCYUZHkDd7zIQ _6JnqZKb-EeCYUZHkDd7zIQ">
+      <ownedEnd xmi:id="_6JnqYab-EeCYUZHkDd7zIQ" name="client_ebay" type="_YT2xMKb7EeCYUZHkDd7zIQ" aggregation="composite" association="_6JnqYKb-EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6JnqYqb-EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6JnqY6b-EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_6JnqZKb-EeCYUZHkDd7zIQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" association="_6JnqYKb-EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6JnqZab-EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6JnqZqb-EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_D4JlMKb_EeCYUZHkDd7zIQ" name="A_&lt;service_livraison>_&lt;facture>" memberEnd="_D4JlMab_EeCYUZHkDd7zIQ _D4JlNKb_EeCYUZHkDd7zIQ">
+      <ownedEnd xmi:id="_D4JlMab_EeCYUZHkDd7zIQ" name="service_livraison" type="_6pEOMKb4EeCYUZHkDd7zIQ" aggregation="composite" association="_D4JlMKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D4JlMqb_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D4JlM6b_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_D4JlNKb_EeCYUZHkDd7zIQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" association="_D4JlMKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D4JlNab_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D4JlNqb_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MEX_wKb_EeCYUZHkDd7zIQ" name="A_&lt;adresse_livraison>_&lt;facture>" memberEnd="_MEX_wab_EeCYUZHkDd7zIQ _MEX_xKb_EeCYUZHkDd7zIQ">
+      <ownedEnd xmi:id="_MEX_wab_EeCYUZHkDd7zIQ" name="adresse_livraison" type="_r19JwKb5EeCYUZHkDd7zIQ" aggregation="shared" association="_MEX_wKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MEX_wqb_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MEX_w6b_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_MEX_xKb_EeCYUZHkDd7zIQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" association="_MEX_wKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MEX_xab_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MEX_xqb_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QS1kQKb_EeCYUZHkDd7zIQ" name="A_&lt;adresse_facturation>_&lt;facture>" memberEnd="_QS1kQab_EeCYUZHkDd7zIQ _QS1kRKb_EeCYUZHkDd7zIQ">
+      <ownedEnd xmi:id="_QS1kQab_EeCYUZHkDd7zIQ" name="adresse_facturation" type="_Ezl98Kb4EeCYUZHkDd7zIQ" aggregation="shared" association="_QS1kQKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QS1kQqb_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QS1kQ6b_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_QS1kRKb_EeCYUZHkDd7zIQ" name="facture" type="_7cQ-UKWbEeC3FJjqErg1og" association="_QS1kQKb_EeCYUZHkDd7zIQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QS1kRab_EeCYUZHkDd7zIQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QS1kRqb_EeCYUZHkDd7zIQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

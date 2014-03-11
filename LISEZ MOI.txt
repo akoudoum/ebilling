@@ -1,0 +1,18 @@
+Installation de Facturation eBay
+
+ 
+# Etape 1
+Décompressez l'archive Zip et transférez le contenu 
+par FTP dans votre repertoire distant du serveur ( si cette étape est déjà réalisée, passons à l'étape2)
+
+ 	 
+# Etape 2
+Rendez le ficchier "incluse/settings.inc.php" possible en écriture: Mettez ces permissions à 666 
+
+ 	 
+# Etape 3
+Créez une base de données vide et un utilisateur pour cette base de données
+ 	 
+# Etape 4
+Ouvrez l'adresse http://www.votredomaine.com/repertoire_du_script/installation/index.php pour lancer l'installation et suivez les instuctions
+ 	 

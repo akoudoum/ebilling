@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+
+#box-c-left{
+	float:left;
+	margin:0;
+	padding:0;
+	width:129px
+	}
+#box-c-form{
+	float:left;
+	margin:0;
+	padding:0;
+	width:605px;
+	}
+#minibox-contact{
+	background:#EDEDED url(../images/mini-box-contact.jpg) top no-repeat;
+	width:117px;
+	color:#000;
+	font-size:0.9em;
+	font-weight:bold;
+	padding:10px 5px 10px 5px
+	}
+#minibox-contact h2{
+	border:none;
+	margin:0;
+	padding:0;
+	font-size:1.4em;
+	font-weight:bold
+	}
+	
+#minibox-contact h3{
+	border:none;
+	margin:0;
+	padding:0;
+	font-size:1.2em;
+	font-weight:bold
+	}
+
+.head_form{
+	width: 98%;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	
+}
+
+
+.sndhead_form{
+	width: 98%;
+	text-align: center;
+	font-weight: bold;
+	
+	background:#ced7f6;
+	color: black; 
+	clear: both;
+	margin-top: 40px;
+	margin-left: 3px
+	
+}
+
+.head_tab{
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	background-color: #a3ccf3
+	
+}
+
+
+.formulaire{
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	color:#000;
+	font-weight:bold;
+	font-size:0.95em;
+	border: solid 1px #000; 
+	}
+.formulaire50cent{
+	width:50%;
+	margin: 10px auto;
+}
+
+.formulaire80cent{
+	width:80%;
+	margin: 10px auto;
+}
+.formulaire80cent input{
+width: 300px}
+.formulaire .hBox{
+	width:100%;
+	padding:0;
+	margin:0;
+	
+}
+.formulaire .centrer{
+	text-align: center;
+}
+.formulaire .hBox .leftcol{
+	width:35%;
+	float:left;
+	margin:0 auto;
+	padding:0;
+	padding-right:3px;
+	padding-top:5px;
+	text-align:right}
+	
+.formulaire .hBox .rightcol{
+	width:63%;
+	float:left;
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	text-align:left;
+	}
+	
+.formulaire .hBox .barrevert{
+	border-top:solid 3px #D9DF57;
+	width:63%;
+	margin-left:35%;
+	
+	}	
+.formulaire	strong{
+	color:#D9DF57;
+	margin:0;
+	padding:0;}
+.formulaire .btn{
+	background:#000;
+	color:#FFF;
+	border:solid 1px #000;}
+	
+.formulaire .champtext{
+	background:#FFF;
+	color:#000;
+	border:solid 1px #000;
+	width:224px
+	}
+.formulaire .champt{
+	background:#FFF;
+	color:#000;
+	border:solid 1px #000;
+	width:224px;
+	height:196px;
+	}		
+.formulaire  .chk{
+	background:#666;
+	border:solid 1px #333}	
+.formulaire .espacebas{
+	margin-bottom:3px}	

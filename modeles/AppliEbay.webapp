@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp:Webapp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://www.acceleo.org/module/wisss/data" xmlns:type="http://www.acceleo.org/module/wisss/type" xmlns:webapp="http://www.acceleo.org/module/wisss/webapp">
+  <modules name="afe">
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.7/@association_ends.0 //@modules.0/@elements.8/@association_ends.0 //@modules.0/@elements.9/@association_ends.0 //@modules.0/@elements.10/@association_ends.0 //@modules.0/@elements.11/@association_ends.0 //@modules.0/@elements.12/@association_ends.0" name="facture">
+      <attributes name="id_ebay">
+        <type xsi:type="type:String"/>
+      </attributes>
+      <attributes name="montant">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="mode_paiement">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="id_trasaction">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="date_commande">
+        <type xsi:type="type:Datetime"/>
+      </attributes>
+      <attributes name="date_facturation">
+        <type xsi:type="type:Datetime"/>
+      </attributes>
+      <attributes name="date_paiment">
+        <type xsi:type="type:Datetime"/>
+      </attributes>
+      <attributes name="legande">
+        <type xsi:type="type:Text"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.7/@association_ends.1" name="adresse_facturation">
+      <attributes name="nom">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="prenom">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="adresse_ligne1">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="adresse_ligne2">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="ville">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="pays">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="code_postal">
+        <type xsi:type="type:String" length="10"/>
+      </attributes>
+      <attributes name="telephone1">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="telephone2">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.8/@association_ends.1" name="adresse_livraison">
+      <attributes name="nom">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="prenom">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="adresse_ligne1">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="adresse_ligne2">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="ville">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="pays">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="code_postal">
+        <type xsi:type="type:String" length="10"/>
+      </attributes>
+      <attributes name="telephone1">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="telephone2">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.12/@association_ends.1" name="service_livraison">
+      <attributes name="nom">
+        <type xsi:type="type:String" length="100"/>
+      </attributes>
+      <attributes name="montant_livraison">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="devise">
+        <type xsi:type="type:String" length="6"/>
+      </attributes>
+      <attributes name="date_livraison">
+        <type xsi:type="type:Datetime"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.10/@association_ends.1" name="entreprise_facturation">
+      <attributes name="raison_sociale">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="adresse_ligne1">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="adresse_ligne2">
+        <type xsi:type="type:String" length="150"/>
+      </attributes>
+      <attributes name="ville">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="pays">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+      <attributes name="code_postal">
+        <type xsi:type="type:String" length="10"/>
+      </attributes>
+      <attributes name="telephone1">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="telephone2">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.11/@association_ends.1" name="elements_facture">
+      <attributes name="id_ebay_element">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="titre">
+        <type xsi:type="type:String" length="200"/>
+      </attributes>
+      <attributes name="etat">
+        <type xsi:type="type:String" length="15"/>
+      </attributes>
+      <attributes name="quantite">
+        <type xsi:type="type:Integer"/>
+      </attributes>
+      <attributes name="prix_unitaire">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:Class" association_ends="//@modules.0/@elements.9/@association_ends.1" name="client_ebay">
+      <attributes name="id_client_ebay">
+        <type xsi:type="type:String" length="20"/>
+      </attributes>
+      <attributes name="nom">
+        <type xsi:type="type:String" length="50"/>
+      </attributes>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_adresse_factutration">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.1" name="id_adresse_facture"/>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_adresse_livraison">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.2" name="id_adresse_livraison"/>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_client_ebay">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.6" name="id_client_ebay"/>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_entreprise">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.4" name="id_entreprise_facturation"/>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_elements_facture">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.5" name="id_element_facture"/>
+    </elements>
+    <elements xsi:type="data:BinaryAssociation" name="facture_A_service_livraison">
+      <association_ends type="//@modules.0/@elements.0" container="true" name="id_facture"/>
+      <association_ends type="//@modules.0/@elements.3" name="id_service_livraison"/>
+    </elements>
+  </modules>
+</webapp:Webapp>

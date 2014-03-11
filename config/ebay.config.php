@@ -1,0 +1,13 @@
+<?php 
+/*
+compat-level=451
+dev-key-test=8f04cd0f-37c1-47e6-adf9-21288fb9718f
+app-key-test=goldexpe-6245-40c9-85cd-b6f6d2ef4473
+cert-id-test=52ecd669-50c4-491b-a313-60f9bbc223c6
+site-id=77
+app-mode=1
+use-http-compression=1
+token-pickup-file=/home/service2/public_html/fce/config/ontoken.token
+token-mode=1
+*/
+?>

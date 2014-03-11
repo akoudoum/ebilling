@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_30ke4KWbEeC3FJjqErg1og" activeDiagram="_30ke4aWbEeC3FJjqErg1og">
+  <model href="FacturationEbay.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+  <diagrams xmi:id="_30ke4aWbEeC3FJjqErg1og" position="0,0" size="100,100" name="DefaultName" viewport="19,93">
+    <property xmi:id="_3_EesKWbEeC3FJjqErg1og" key="pageFormatName" value="A4"/>
+    <property xmi:id="_3_EesaWbEeC3FJjqErg1og" key="diagramWidth" value="840"/>
+    <property xmi:id="_3_EesqWbEeC3FJjqErg1og" key="diagramHeight" value="1188"/>
+    <property xmi:id="_3_Ees6WbEeC3FJjqErg1og" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_3_EetKWbEeC3FJjqErg1og" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_3_EetaWbEeC3FJjqErg1og" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_3_EetqWbEeC3FJjqErg1og" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_3_Eet6WbEeC3FJjqErg1og" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_3_EeuKWbEeC3FJjqErg1og" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_30lF8KWbEeC3FJjqErg1og" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="FacturationEbay.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_5jthQKWbEeC3FJjqErg1og" position="29,68" size="765,943">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5jthQaWbEeC3FJjqErg1og" presentation="default">
+        <element href="FacturationEbay.uml#_5mUwYKWbEeC3FJjqErg1og"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_7bx2IKWbEeC3FJjqErg1og" position="252,299" size="199,-1">
+        <anchorage xmi:id="_ALpCEKWdEeC3FJjqErg1og" graphEdge="_TxiboKZCEeCZhcMYQDtAyQ _LQIbQKZCEeCZhcMYQDtAyQ _6JmcQKb-EeCYUZHkDd7zIQ _D4I-IKb_EeCYUZHkDd7zIQ _MEXYsKb_EeCYUZHkDd7zIQ _QS09MKb_EeCYUZHkDd7zIQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7bx2IaWbEeC3FJjqErg1og" presentation="default">
+          <element href="FacturationEbay.uml#_7cQ-UKWbEeC3FJjqErg1og"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_7bx2IqWbEeC3FJjqErg1og">
+          <property xmi:id="_7bx2I6WbEeC3FJjqErg1og" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7bx2JKWbEeC3FJjqErg1og" presentation="default">
+            <element href="FacturationEbay.uml#_7cQ-UKWbEeC3FJjqErg1og"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_grgcIKWcEeC3FJjqErg1og" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_grgcIaWcEeC3FJjqErg1og" presentation="default">
+              <element href="FacturationEbay.uml#_gsG5EKWcEeC3FJjqErg1og"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_6TmQoKWcEeC3FJjqErg1og" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6TmQoaWcEeC3FJjqErg1og" presentation="default">
+              <element href="FacturationEbay.uml#_6TnewKWcEeC3FJjqErg1og"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_qwPGkabzEeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qwPGkqbzEeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_qwnhEKbzEeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_orN-AKb3EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_orN-Aab3EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_orQaQKb3EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_sImD0Kb3EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sImq4Kb3EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_sIn5AKb3EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_2YRj4Kb3EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2YRj4ab3EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_2YSyAKb3EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_kSaf0Kb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kSaf0ab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_kScVAKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Bz050Kb7EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Bz050ab7EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_Bz3WEKb7EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_7bx2JaWbEeC3FJjqErg1og">
+          <property xmi:id="_7bx2JqWbEeC3FJjqErg1og" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7bx2J6WbEeC3FJjqErg1og" presentation="default">
+            <element href="FacturationEbay.uml#_7cQ-UKWbEeC3FJjqErg1og"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="__Of1YaZBEeCZhcMYQDtAyQ" position="45,677" size="180,-1">
+        <anchorage xmi:id="_LQEw4KZCEeCZhcMYQDtAyQ" graphEdge="_LQIbQKZCEeCZhcMYQDtAyQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__Of1YqZBEeCZhcMYQDtAyQ" presentation="default">
+          <element href="FacturationEbay.uml#__O2asKZBEeCZhcMYQDtAyQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="__Of1Y6ZBEeCZhcMYQDtAyQ">
+          <property xmi:id="__Of1ZKZBEeCZhcMYQDtAyQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__Of1ZaZBEeCZhcMYQDtAyQ" presentation="default">
+            <element href="FacturationEbay.uml#__O2asKZBEeCZhcMYQDtAyQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_qAxUUKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qAxUUab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_qAzJgKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_s34EUKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_s34rYKb6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_s355gKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_w4xG4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_w4xG4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_w4yVAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_zos34Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zos34ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_zouGAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_0c4G0Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0c4G0ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_0c58AKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_19Ul4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_19Ul4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_19WbEKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_52Ve0Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_52Ve0ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_52Ws8Kb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_7S904Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7S904ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_7S_qEKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_K_qsYKb9EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_K_qsYab9EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_K_rTcKb9EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="__Of1ZqZBEeCZhcMYQDtAyQ">
+          <property xmi:id="__Of1Z6ZBEeCZhcMYQDtAyQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__Of1aKZBEeCZhcMYQDtAyQ" presentation="default">
+            <element href="FacturationEbay.uml#__O2asKZBEeCZhcMYQDtAyQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_B08TMKZCEeCZhcMYQDtAyQ" position="267,680" size="195,-1">
+        <anchorage xmi:id="_TxeKMKZCEeCZhcMYQDtAyQ" graphEdge="_TxiboKZCEeCZhcMYQDtAyQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B08TMaZCEeCZhcMYQDtAyQ" presentation="default">
+          <element href="FacturationEbay.uml#_B1CZ0KZCEeCZhcMYQDtAyQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_B08TMqZCEeCZhcMYQDtAyQ">
+          <property xmi:id="_B08TM6ZCEeCZhcMYQDtAyQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B08TNKZCEeCZhcMYQDtAyQ" presentation="default">
+            <element href="FacturationEbay.uml#_B1CZ0KZCEeCZhcMYQDtAyQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_QkDCUKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QkDCUab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_QkFekKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_SjOr0Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_SjOr0ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_SjQhAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_VZWkYKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_VZWkYab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_VZYZkKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_aki24Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aki24ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_akkFAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_dJVH0Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dJVH0ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_dJWV8Kb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_mv4yYKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mv4yYab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_mv6AgKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_B08TNaZCEeCZhcMYQDtAyQ">
+          <property xmi:id="_B08TNqZCEeCZhcMYQDtAyQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B08TN6ZCEeCZhcMYQDtAyQ" presentation="default">
+            <element href="FacturationEbay.uml#_B1CZ0KZCEeCZhcMYQDtAyQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_LQIbQKZCEeCZhcMYQDtAyQ" anchor="_LQEw4KZCEeCZhcMYQDtAyQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_LQIbQaZCEeCZhcMYQDtAyQ" presentation="default">
+          <element href="FacturationEbay.uml#_LQJpYKZCEeCZhcMYQDtAyQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbQqZCEeCZhcMYQDtAyQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbQ6ZCEeCZhcMYQDtAyQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbRKZCEeCZhcMYQDtAyQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbRaZCEeCZhcMYQDtAyQ" id="targetNameEdgeObject" uDistance="25" vDistance="3"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbRqZCEeCZhcMYQDtAyQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_LQIbR6ZCEeCZhcMYQDtAyQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_LQIbSKZCEeCZhcMYQDtAyQ" visible="false" id="middleNameEdgeObject" offset="-3,127"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_LQIbSaZCEeCZhcMYQDtAyQ" id="stereotypeEdgeObject" offset="0,-10"/>
+        <waypoints>[108, -201, -108, 186]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_TxiboKZCEeCZhcMYQDtAyQ" anchor="_TxeKMKZCEeCZhcMYQDtAyQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_TxiboaZCEeCZhcMYQDtAyQ" presentation="default">
+          <element href="FacturationEbay.uml#_TxjpwKZCEeCZhcMYQDtAyQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_TxiboqZCEeCZhcMYQDtAyQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_Txibo6ZCEeCZhcMYQDtAyQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_TxibpKZCEeCZhcMYQDtAyQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_TxibpaZCEeCZhcMYQDtAyQ" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_TxibpqZCEeCZhcMYQDtAyQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_Txibp6ZCEeCZhcMYQDtAyQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_TxibqKZCEeCZhcMYQDtAyQ" visible="false" id="middleNameEdgeObject" offset="-107,187"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_TxibqaZCEeCZhcMYQDtAyQ" visible="false" id="stereotypeEdgeObject" offset="0,-10"/>
+        <waypoints>[-14, -126, 20, 199]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_EzM8YKb4EeCYUZHkDd7zIQ" position="20,24" size="233,-1">
+        <anchorage xmi:id="_QSx54Kb_EeCYUZHkDd7zIQ" graphEdge="_QS09MKb_EeCYUZHkDd7zIQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EzM8Yab4EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_Ezl98Kb4EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_EzM8Yqb4EeCYUZHkDd7zIQ">
+          <property xmi:id="_EzM8Y6b4EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EzM8ZKb4EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_Ezl98Kb4EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_UhD8YKb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UhD8Yab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_UhFxkKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_XQO4YKb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_XQO4Yab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_XQQtkKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_Ycvu0Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ycvu0ab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_YcxkAKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_aGpr4Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aGpr4ab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_aGrhEKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_bufMYKb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_bufMYab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_buhBkKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_f6mAcKb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_f6mAcab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_f6n1oKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_hpqxYKb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hpqxYab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_hpsmkKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_kDtK4Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kDtK4ab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_kDvAEKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_n1s10Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_n1tc4Kb4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_n1urAKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_qMTg0Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qMUH4Kb4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_qMVWAKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_EzM8Zab4EeCYUZHkDd7zIQ">
+          <property xmi:id="_EzM8Zqb4EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EzM8Z6b4EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_Ezl98Kb4EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_6pAj0Kb4EeCYUZHkDd7zIQ" position="566,103" size="188,-1">
+        <anchorage xmi:id="_D4Gh4Kb_EeCYUZHkDd7zIQ" graphEdge="_D4I-IKb_EeCYUZHkDd7zIQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6pBK4Kb4EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_6pEOMKb4EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_6pBK4ab4EeCYUZHkDd7zIQ">
+          <property xmi:id="_6pBK4qb4EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6pBK46b4EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_6pEOMKb4EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_9eJk8Kb4EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9eJk8ab4EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_9eMBMKb4EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_D7gC4Kb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_D7gC4ab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_D7hRAKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_MJdi0Kb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MJeJ4Kb5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_MJfYAKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_OymvUKb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OymvUab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_OyokgKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_tF6q4Kb7EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tF6q4ab7EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_tF75AKb7EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_6pBK5Kb4EeCYUZHkDd7zIQ">
+          <property xmi:id="_6pBK5ab4EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6pBK5qb4EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_6pEOMKb4EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_r15fYKb5EeCYUZHkDd7zIQ" position="274,20" size="225,-1">
+        <anchorage xmi:id="_MEU8cKb_EeCYUZHkDd7zIQ" graphEdge="_MEXYsKb_EeCYUZHkDd7zIQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_r15fYab5EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_r19JwKb5EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_r15fYqb5EeCYUZHkDd7zIQ">
+          <property xmi:id="_r15fY6b5EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_r15fZKb5EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_r19JwKb5EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_uccq4Kb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uccq4ab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_ucd5AKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_5cuhcKb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5cuhcab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_5cwWoKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_6T4L4Kb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6T4L4ab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_6T6BEKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_7xeyUKb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_7xeyUab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_7xgngKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_9-BiYKb5EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9-BiYab5EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_9-CwgKb5EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_BLGiYKb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BLGiYab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_BLHwgKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_CVVg4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CVVg4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_CVWvAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_DanG4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DanG4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_Dao8EKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_FTxA4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FTxA4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_FTyPAKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_G-bL4Kb6EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G-bL4ab6EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_G-dBEKb6EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_r15fZab5EeCYUZHkDd7zIQ">
+          <property xmi:id="_r15fZqb5EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_r15fZ6b5EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_r19JwKb5EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_YTzt4Kb7EeCYUZHkDd7zIQ" position="492,689" size="209,-1">
+        <anchorage xmi:id="_6JkAAKb-EeCYUZHkDd7zIQ" graphEdge="_6JmcQKb-EeCYUZHkDd7zIQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YTzt4ab7EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_YT2xMKb7EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_YTzt4qb7EeCYUZHkDd7zIQ">
+          <property xmi:id="_YTzt46b7EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YTzt5Kb7EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_YT2xMKb7EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_dszy4Kb7EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dszy4ab7EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_ds1BAKb7EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_iJFJ4Kb7EeCYUZHkDd7zIQ" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iJFJ4ab7EeCYUZHkDd7zIQ" presentation="default">
+              <element href="FacturationEbay.uml#_iJGYAKb7EeCYUZHkDd7zIQ"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_YTzt5ab7EeCYUZHkDd7zIQ">
+          <property xmi:id="_YTzt5qb7EeCYUZHkDd7zIQ" key="eStructuralFeatureID" value="47 50 "/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_YTzt56b7EeCYUZHkDd7zIQ" presentation="default">
+            <element href="FacturationEbay.uml#_YT2xMKb7EeCYUZHkDd7zIQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_6JmcQKb-EeCYUZHkDd7zIQ" anchor="_6JkAAKb-EeCYUZHkDd7zIQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6JmcQab-EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_6JnqYKb-EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcQqb-EeCYUZHkDd7zIQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcQ6b-EeCYUZHkDd7zIQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcRKb-EeCYUZHkDd7zIQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcRab-EeCYUZHkDd7zIQ" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcRqb-EeCYUZHkDd7zIQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_6JmcR6b-EeCYUZHkDd7zIQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_6JmcSKb-EeCYUZHkDd7zIQ" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_6JmcSab-EeCYUZHkDd7zIQ" id="stereotypeEdgeObject" offset="0,-10"/>
+        <waypoints>[0, -336, 245, 0]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_D4I-IKb_EeCYUZHkDd7zIQ" anchor="_D4Gh4Kb_EeCYUZHkDd7zIQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_D4I-Iab_EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_D4JlMKb_EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-Iqb_EeCYUZHkDd7zIQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-I6b_EeCYUZHkDd7zIQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-JKb_EeCYUZHkDd7zIQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-Jab_EeCYUZHkDd7zIQ" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-Jqb_EeCYUZHkDd7zIQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_D4I-J6b_EeCYUZHkDd7zIQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_D4I-KKb_EeCYUZHkDd7zIQ" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_D4I-Kab_EeCYUZHkDd7zIQ" id="stereotypeEdgeObject" offset="0,-10"/>
+        <waypoints>[-122, 113, 139, -116]</waypoints>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_MEXYsKb_EeCYUZHkDd7zIQ" anchor="_MEU8cKb_EeCYUZHkDd7zIQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_MEXYsab_EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_MEX_wKb_EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYsqb_EeCYUZHkDd7zIQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYs6b_EeCYUZHkDd7zIQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYtKb_EeCYUZHkDd7zIQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYtab_EeCYUZHkDd7zIQ" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYtqb_EeCYUZHkDd7zIQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_MEXYt6b_EeCYUZHkDd7zIQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_MEXYuKb_EeCYUZHkDd7zIQ" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_MEXYuab_EeCYUZHkDd7zIQ" id="stereotypeEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_QS09MKb_EeCYUZHkDd7zIQ" anchor="_QSx54Kb_EeCYUZHkDd7zIQ _ALpCEKWdEeC3FJjqErg1og">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QS09Mab_EeCYUZHkDd7zIQ" presentation="default">
+          <element href="FacturationEbay.uml#_QS1kQKb_EeCYUZHkDd7zIQ"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09Mqb_EeCYUZHkDd7zIQ" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09M6b_EeCYUZHkDd7zIQ" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09NKb_EeCYUZHkDd7zIQ" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09Nab_EeCYUZHkDd7zIQ" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09Nqb_EeCYUZHkDd7zIQ" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_QS09N6b_EeCYUZHkDd7zIQ" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_QS09OKb_EeCYUZHkDd7zIQ" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_QS09Oab_EeCYUZHkDd7zIQ" id="stereotypeEdgeObject" offset="0,-10"/>
+        <waypoints>[124, 150, -93, -107]</waypoints>
+      </contained>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

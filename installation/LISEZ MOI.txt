@@ -1,0 +1,14 @@
+Instructions d’installation 
+
+L’installation du script se passe en 4 étapes :
+
+# Etape 1 : Décompressez l'archive Zip et transférez le contenu par FTP, dans votre  répertoire distant du serveur
+
+# Etape 2 : 
+Modifier le ficchier config/config.php en écriture:  
+
+
+# Etape 3 : Créez une base de données vide et un utilisateur pour cette base de données
+
+
+# Etape 4 : Ouvrez l’url suivant dans votre navigateur http://votedomaine/installation/ pour lancer l'installation et suivez les instuctions
